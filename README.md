@@ -8,10 +8,6 @@ This project is a simple digital clock implemented using HTML, CSS, and JavaScri
 - Updates every second to reflect the current time.
 - Responsive design with a visually appealing clock interface.
 
-## Preview
-
-![Digital Clock](path/to/your/screenshot.png)
-
 ## How to Run the Project
 
 1. **Clone the Repository:**
