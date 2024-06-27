@@ -16,7 +16,7 @@ This project is a simple digital clock implemented using HTML, CSS, and JavaScri
 
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/yourusername/digital-clock.git
+   git clone https://github.com/SayleeShelar/digital-clock.git
    ```
 
 2. **Navigate to the Project Directory:**
@@ -67,26 +67,26 @@ The CSS file contains the styling for the digital clock, including layout, color
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
-.hero{
+.hero {
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(45deg, #08001f, #30197d);
     color: #fff;
     position: relative;
-}  
-.container{
+}
+.container {
     width: 800px;
     height: 180px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-.clock{
+.clock {
     width: 100%;
     height: 100%;
     background: rgba(235, 0, 255, 0.11);
@@ -95,8 +95,8 @@ The CSS file contains the styling for the digital clock, including layout, color
     align-items: center;
     justify-content: center;
     backdrop-filter: blur(40px);
-} 
-.container::before{
+}
+.container::before {
     content: '';
     width: 180px;
     height: 180px;
@@ -107,8 +107,7 @@ The CSS file contains the styling for the digital clock, including layout, color
     top: -50px;
     z-index: -1;
 }
-
-.container::after{
+.container::after {
     content: '';
     width: 180px;
     height: 180px;
@@ -119,27 +118,27 @@ The CSS file contains the styling for the digital clock, including layout, color
     bottom: -50px;
     z-index: -1;
 }
-.clock span{
+.clock span {
     font-size: 80px;
     width: 110px;
     display: inline-block;
     text-align: center;
     position: relative;
 }
-.clock span::after{
+.clock span::after {
     font-size: 16px;
     position: absolute;
     bottom: -5px;
     left: 50%;
     transform: translatex(-50%);
 }
-#hrs::after{
+#hrs::after {
     content: 'HOURS';
 }
-#min::after{
+#min::after {
     content: 'MINS';
 }
-#sec::after{
+#sec::after {
     content: 'SEC';
 }
 ```
@@ -167,5 +166,7 @@ This project was developed following a tutorial from the [GreatStack YouTube cha
 
 ## License
 
-This project does not have a specific license.
+This project does not have a specific license. All rights reserved. If you wish to use this project for any purpose, please contact the author.
+
+---
 
